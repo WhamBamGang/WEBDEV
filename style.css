@@ -1,0 +1,31 @@
+.header{
+    background-color: #151515;
+}
+
+h1 {
+    color: cornflowerblue;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+}
+
+body {
+    background-color: #151515;
+}
+
+.icon1 {
+    position: absolute;
+    width: 24.61px;
+    height: 24px;
+    left: 1053px;
+    top: 44px;    
+}
+
+.icon2 {
+    position: absolute;
+    width: 24.6px;
+    height: 22px;
+    left: 1109.61px;
+    top: 45.23px;
+}
