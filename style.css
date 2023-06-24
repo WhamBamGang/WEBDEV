@@ -1,10 +1,25 @@
-.header{
-    background-color: #151515;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Space Grotesk';
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: start;
+
 }
 
 h1 {
     color: cornflowerblue;
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Space Grotesk';
     font-weight: 700;
     font-size: 32px;
     line-height: 32px;
