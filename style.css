@@ -17,7 +17,7 @@ nav {
 }
 
 h1 {
-    color: cornflowerblue;
+    color: white;
     font-family: 'Space Grotesk';
     font-weight: 700;
     font-size: 32px;
@@ -30,12 +30,17 @@ body {
     background-color: #151515;
 }
 
-div {
+.navbar {
     display: flex;
     flex-direction: row;
     align-self: flex-end;
     padding: 16px;
     justify-self: space-between;
+}
+
+.introduction {
+    color: white;
+    padding: 16px;
 }
 
 .icon1 {
