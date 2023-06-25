@@ -9,12 +9,11 @@ body {
 }
 
 
-nav{
+nav {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    align-items: start;
-
+    justify-content: space-between;
+    
 }
 
 h1 {
@@ -23,24 +22,28 @@ h1 {
     font-weight: 700;
     font-size: 32px;
     line-height: 32px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 body {
     background-color: #151515;
 }
 
-.icon1 {
-    position: absolute;
-    width: 24.61px;
-    height: 24px;
-    left: 1053px;
-    top: 44px;    
+div {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    padding: 16px;
+    justify-self: space-between;
 }
 
-.icon2 {
-    position: absolute;
-    width: 24.6px;
-    height: 22px;
-    left: 1109.61px;
-    top: 45.23px;
+.icon1 {
+    margin-right: 10px
+   
 }
+
+.icon2 { 
+    margin-right: 10px
+   
+}  
